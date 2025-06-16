@@ -4,27 +4,26 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 import time
 
-# Load trained model
+
 model = load_model("mask_model.h5")
 
-# Load Haar Cascade
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 if face_cascade.empty():
     print("⚠️ Could not load Haar cascade. Make sure 'haarcascade_frontalface_default.xml' is in the same directory.")
     exit()
 
-# Preprocessing function
+
 def preprocess_image(image, target_size=(100, 100)):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     image = cv2.resize(image, target_size)
     image = img_to_array(image) / 255.0
     return np.expand_dims(image, axis=0)
 
-# Open webcam
+
 cap = cv2.VideoCapture(0)
 last_alert_time = 0
 
-print("🔍 Running Live Mask Detection... (Press 'q' to quit)")
+print("(Press 'q' to quit)")
 
 while True:
     ret, frame = cap.read()
