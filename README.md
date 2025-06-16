@@ -60,7 +60,6 @@ future_improvements:
 developer:
   - name: Parks RPK
   - title: Computer Science @ Binghamton University
-  - skills: "💻 Machine Learning • Web Dev • Systems • Marathoner 🏃‍♂️"
   - linkedin: "https://www.linkedin.com/in/parks-rpk-8479a3350/"
 
 
