@@ -29,10 +29,10 @@ dataset:
   source: Kaggle
   kaggle_url: "https://www.kaggle.com/datasets/andrewmvd/face-mask-detection"
   download_instructions: |
-    1. Go to the URL above
-    2. Log in with your Kaggle account
-    3. Click "Download All"
-    4. Extract the zip, and place:
+    - Go to the URL above
+    -/ Log in with your Kaggle account
+    - Click "Download All"
+    - Extract the zip, and place:
        - `images/` folder inside `python_Folder/`
        - `annotations/` folder inside `python_Folder/`
 
@@ -58,9 +58,9 @@ future_improvements:
   - Deploy via Flask dashboard or Raspberry Pi
 
 developer:
-  name: Parks RPK
-  title: Computer Science @ Binghamton University
-  skills: "💻 Machine Learning • Web Dev • Systems • Marathoner 🏃‍♂️"
-  linkedin: "https://www.linkedin.com/in/parks-rpk-8479a3350/"
+  - name: Parks RPK
+  - title: Computer Science @ Binghamton University
+  - skills: "💻 Machine Learning • Web Dev • Systems • Marathoner 🏃‍♂️"
+  - linkedin: "https://www.linkedin.com/in/parks-rpk-8479a3350/"
 
 
