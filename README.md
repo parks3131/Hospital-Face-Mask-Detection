@@ -30,7 +30,7 @@ dataset:
   kaggle_url: "https://www.kaggle.com/datasets/andrewmvd/face-mask-detection"
   download_instructions: |
     - Go to the URL above
-    -/ Log in with your Kaggle account
+    - Log in with your Kaggle account
     - Click "Download All"
     - Extract the zip, and place:
        - `images/` folder inside `python_Folder/`
